@@ -1,0 +1,981 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+
+# ============================
+# Variables de entorno y archivos de configuración
+# ============================
+.env
+.env.local
+.env.*.local
+*.env
+.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ============================
+# Directorios temporales
+# ============================
+temp/
+tmp/
+*.tmp
+*.temp
+*.log
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.sqlite
+*.db
+
+# ============================
+# IDEs y editores
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.history/
+.pt2/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ============================
+# Node / Frontend
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+*.local
+.vite/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+.next/
+out/
+.nuxt/
+.nitro/
+.cache/
+.output/
+.vercel
+
+# ============================
+# Archivos de dependencias
+# ============================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+requirements.txt.lock
+poetry.lock
+Pipfile.lock
+
+# ============================
+# Archivos de cobertura y testing
+# ============================
+coverage/
+*.cover
+*.coverage
+.nyc_output/
+.junit/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ============================
+# Archivos de compilación
+# ============================
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+*.exe
+*.class
+*.jar
+*.war
+*.ear
+
+# ============================
+# Archivos de LaTeX / PDF
+# ============================
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+*.tex
+*.dvi
+*.ps
+
+# ============================
+# Archivos de imágenes y datos
+# ============================
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.webp
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# ============================
+# Archivos de documentación
+# ============================
+site/
+docs/_build/
+docs/build/
+*.html
+*.md.tmp
+*.rst.tmp
+
+# ============================
+# Archivos de base de datos
+# ============================
+*.sqlite
+*.db
+*.sqlite3
+*.mdb
+*.accdb
+*.fdb
+*.gdb
+*.dbf
+
+# ============================
+# Archivos de sistema
+# ============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+*.temp
+
+# ============================
+# Archivos de respaldo
+# ============================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+
+# ============================
+# Archivos de configuración de la aplicación
+# ============================
+*.config
+*.conf
+*.cfg
+*.ini
+*.yml
+*.yaml
+*.json
+*.xml
+*.toml
+*.properties
+
+# ============================
+# Archivos de pruebas y ejemplos
+# ============================
+test/
+tests/
+examples/
+samples/
+demo/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+*.test.py
+*.spec.py
+
+# ============================
+# Archivos de Docker
+# ============================
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+*.dockerignore
+Dockerfile.*
+.dockerignore
+
+# ============================
+# Archivos de Kubernetes
+# ============================
+*.kubeconfig
+*.kubeconfig.*
+*.kube
+*.k8s
+*.k8s.yaml
+*.k8s.yml
+
+# ============================
+# Archivos de Terraform
+# ============================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# ============================
+# Archivos de GitHub
+# ============================
+.github/
+.github/**/*.tmp
+*.github
+*.github.io
+
+# ============================
+# Archivos de CI/CD
+# ============================
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+.github/workflows/
+.azure-pipelines.yml
+.jenkins/
+.gitlab/
+.teamcity/
+.wercker/
+.drone.yml
+.buildkite/
+.semaphore/
+
+# ============================
+# Archivos de Visual Studio
+# ============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsix
+*.vstemplate
+*.vssettings
+*.vsmdi
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.vsx
+*.vsz
+*.vss
+*.vbp
+*.vbg
+*.vbs
+*.vbsx
+*.vbsx
+
+# ============================
+# Archivos de JetBrains
+# ============================
+.idea/
+*.iml
+*.ipr
+*.iws
+*.icf
+*.ui
+*.tab
+*.tabx
+*.tabs
+*.tmpl
+*.tmp
+*.session
+*.solution
+*.sln
+*.suo
+*.user
+*.vsp
+*.vspx
+*.vspcc
+*.vspx
+*.vstemplate
+*.vssettings
+*.vsmdi
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.vsx
+*.vsz
+*.vss
+*.vbp
+*.vbg
+*.vbs
+*.vbsx
+*.vbsx
+*.vbs
+*.vbsx
+
+# ============================
+# Archivos de Sublime Text
+# ============================
+*.sublime-workspace
+*.sublime-project
+*.sublime-package
+*.sublime-settings
+*.sublime-menu
+*.sublime-keymap
+*.sublime-mousemap
+*.sublime-theme
+*.sublime-color-scheme
+*.sublime-syntax
+*.sublime-build
+*.sublime-commands
+*.sublime-completions
+*.sublime-settings
+*.sublime-macro
+*.sublime-snippet
+*.sublime-session
+*.sublime-workspace
+*.sublime-project
+
+# ============================
+# Archivos de Atom
+# ============================
+.atom/
+*.atom
+*.atom-workspace
+*.atom-project
+*.atom-settings
+*.atom-keymap
+*.atom-init
+*.atom-styles
+*.atom-packages
+*.atom-theme
+*.atom-syntax
+*.atom-config
+*.atom-session
+*.atom-workspace
+*.atom-project
+
+# ============================
+# Archivos de Brackets
+# ============================
+.brackets/
+*.brackets
+*.brackets.json
+*.brackets-project
+*.brackets-session
+*.brackets-workspace
+*.brackets-settings
+*.brackets-keymap
+*.brackets-init
+*.brackets-styles
+*.brackets-packages
+*.brackets-theme
+*.brackets-syntax
+*.brackets-config
+*.brackets-session
+*.brackets-workspace
+*.brackets-project
+
+# ============================
+# Archivos de Eclipse
+# ============================
+.metadata/
+*.classpath
+*.project
+*.settings/
+*.springBeans
+*.factorypath
+*.recommenders/
+*.jdt/
+*.apt_generated/
+*.bpel/
+*.deployables/
+*.jetty/
+*.tmp/
+*.log/
+*.index/
+*.hprof
+*.heapdump
+*.dmp
+*.core
+*.crash
+
+# ============================
+# Archivos de NetBeans
+# ============================
+.nbproject/
+*.nbproject
+*.nbattrs
+*.nb-gradle/
+*.nb-dist/
+*.nb-private/
+*.nb-cache/
+*.nb-session/
+*.nb-project/
+*.nb-properties
+*.nb-settings
+*.nb-configuration
+
+# ============================
+# Archivos de IntelliJ IDEA
+# ============================
+.idea/
+*.iml
+*.ipr
+*.iws
+*.icf
+*.ui
+*.tab
+*.tabx
+*.tabs
+*.tmpl
+*.tmp
+*.session
+*.solution
+*.sln
+*.suo
+*.user
+*.vsp
+*.vspx
+*.vspcc
+*.vspx
+*.vstemplate
+*.vssettings
+*.vsmdi
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.vsx
+*.vsz
+*.vss
+*.vbp
+*.vbg
+*.vbs
+*.vbsx
+*.vbsx
+*.vbs
+*.vbsx
+
+# ============================
+# Archivos de PyCharm
+# ============================
+.pycharm/
+*.pycharm
+*.pycharm-workspace
+*.pycharm-project
+*.pycharm-settings
+*.pycharm-keymap
+*.pycharm-init
+*.pycharm-styles
+*.pycharm-packages
+*.pycharm-theme
+*.pycharm-syntax
+*.pycharm-config
+*.pycharm-session
+*.pycharm-workspace
+*.pycharm-project
+
+# ============================
+# Archivos de Visual Studio Code
+# ============================
+.vscode/
+*.vscode
+*.vscode-workspace
+*.vscode-project
+*.vscode-settings
+*.vscode-keymap
+*.vscode-init
+*.vscode-styles
+*.vscode-packages
+*.vscode-theme
+*.vscode-syntax
+*.vscode-config
+*.vscode-session
+*.vscode-workspace
+*.vscode-project
+*.code-workspace
+*.code-snippets
+*.code-settings
+*.code-keymap
+*.code-init
+*.code-styles
+*.code-packages
+*.code-theme
+*.code-syntax
+*.code-config
+*.code-session
+*.code-workspace
+*.code-project
+
+# ============================
+# Archivos de Linux
+# ============================
+*.so
+*.so.*
+*.a
+*.o
+*.lo
+*.la
+*.lai
+*.m4
+*.rej
+*.orig
+*.old
+*.bak
+*.patch
+*.diff
+*.merge
+*.conflict
+*.swap
+*.swo
+*.swp
+*.tmp
+*.temp
+*.log
+*.pid
+*.lock
+*.cache
+*.cache.*
+*.cache-*
+*.cache_*
+*.metadata/
+*.index/
+*.hprof
+*.heapdump
+*.dmp
+*.core
+*.crash
+*.stackdump
+*.stacktrace
+*.backtrace
+*.trace
+*.dump
+*.crashdump
+*.minidump
+*.hdmp
+*.mdmp
+
+# ============================
+# Archivos de macOS
+# ============================
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.NetworkTrashFolder
+.Thumbs.db
+.metadata_never_index
+.com.apple.FinderInfo
+.VolumeIcon.icns
+.VolumeIcon.icns
+.VolumeIcon.icns
+
+# ============================
+# Archivos de Windows
+# ============================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+*.dmp
+*.core
+*.crash
+*.log
+*.tmp
+*.temp
+*.old
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
+*.diff
+*.merge
+*.conflict
+*.swap
+*.swo
+*.swp
+*.tmp
+*.temp
+*.log
+*.pid
+*.lock
+*.cache
+*.cache.*
+*.cache-*
+*.cache_*
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.url
+*.website
+*.webloc
+*.desktop
+*.directory
+*.shortcut
+*.link
+*.symlink
+*.hardlink
+*.junction
+*.mount
+*.volume
+*.drive
+*.disk
+*.image
+*.iso
+*.img
+*.dmg
+*.pkg
+*.msi
+*.exe
+*.dll
+*.sys
+*.drv
+*.vxd
+*.386
+*.cpl
+*.scr
+*.com
+*.bat
+*.cmd
+*.ps1
+*.vbs
+*.js
+*.jse
+*.vbe
+*.wsf
+*.wsh
+*.hta
+*.pif
+*.scr
+*.cpl
+*.ocx
+*.vbx
+*.tsr
+*.vxd
+*.386
+*.cpl
+*.scr
+*.com
+*.bat
+*.cmd
+*.ps1
+*.vbs
+*.js
+*.jse
+*.vbe
+*.wsf
+*.wsh
+*.hta
+*.pif
+*.scr
+*.cpl
+*.ocx
+*.vbx
+*.tsr
+*.vxd
+*.386
+*.cpl
+*.scr
+*.com
+*.bat
+*.cmd
+*.ps1
+*.vbs
+*.js
+*.jse
+*.vbe
+*.wsf
+*.wsh
+*.hta
+*.pif
+*.scr
+*.cpl
+*.ocx
+*.vbx
+*.tsr
+
+# ============================
+# Archivos de Docker
+# ============================
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+*.dockerignore
+Dockerfile.*
+.dockerignore
+.docker-env
+.docker-credentials
+.docker-config
+.docker-context
+.docker-socket
+.docker-pid
+.docker-lock
+.docker-cache
+.docker-build
+.docker-run
+.docker-start
+.docker-stop
+.docker-restart
+.docker-pause
+.docker-unpause
+.docker-kill
+.docker-rm
+.docker-rmi
+.docker-build
+.docker-push
+.docker-pull
+.docker-login
+.docker-logout
+.docker-version
+.docker-info
+.docker-events
+.docker-stats
+.docker-top
+.docker-attach
+.docker-exec
+.docker-cp
+.docker-commit
+.docker-diff
+.docker-export
+.docker-import
+.docker-load
+.docker-save
+.docker-tag
+.docker-create
+.docker-start
+.docker-stop
+.docker-restart
+.docker-pause
+.docker-unpause
+.docker-kill
+.docker-rm
+.docker-rmi
+.docker-build
+.docker-push
+.docker-pull
+.docker-login
+.docker-logout
+.docker-version
+.docker-info
+.docker-events
+.docker-stats
+.docker-top
+.docker-attach
+.docker-exec
+.docker-cp
+.docker-commit
+.docker-diff
+.docker-export
+.docker-import
+.docker-load
+.docker-save
+.docker-tag
+.docker-create
+.docker-start
+.docker-stop
+.docker-restart
+.docker-pause
+.docker-unpause
+.docker-kill
+.docker-rm
+.docker-rmi
+.docker-build
+.docker-push
+.docker-pull
+.docker-login
+.docker-logout
+.docker-version
+.docker-info
+.docker-events
+.docker-stats
+.docker-top
+.docker-attach
+.docker-exec
+.docker-cp
+.docker-commit
+.docker-diff
+.docker-export
+.docker-import
+.docker-load
+.docker-save
+.docker-tag
+.docker-create
+
+# ============================
+# Archivos de Kubernetes
+# ============================
+*.kubeconfig
+*.kubeconfig.*
+*.kube
+*.k8s
+*.k8s.yaml
+*.k8s.yml
+*.kube.yaml
+*.kube.yml
+*.kubernetes.yaml
+*.kubernetes.yml
+*.k8s-config
+*.k8s-context
+*.k8s-namespace
+*.k8s-pod
+*.k8s-service
+*.k8s-ingress
+*.k8s-deployment
+*.k8s-statefulset
+*.k8s-daemonset
+*.k8s-job
+*.k8s-cronjob
+*.k8s-pvc
+*.k8s-pv
+*.k8s-storageclass
+*.k8s-configmap
+*.k8s-secret
+*.k8s-serviceaccount
+*.k8s-role
+*.k8s-rolebinding
+*.k8s-clusterrole
+*.k8s-clusterrolebinding
+*.k8s-networkpolicy
+*.k8s-podsecuritypolicy
+*.k8s-resourcequota
+*.k8s-limitrange
+*.k8s-horizontalpodautoscaler
+*.k8s-poddisruptionbudget
+*.k8s-priorityclass
+*.k8s-runtimeclass
+*.k8s-csidriver
+*.k8s-csinode
+*.k8s-csistoragecapacity
+*.k8s-volumeattachment
+*.k8s-volumeattachmentsource
+*.k8s-volumeattachmentspec
+*.k8s-volumeattachmentstatus
+
+# ============================
+# Archivos de Terraform
+# ============================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfplan.json
+*.tfplan.binary
+*.tfplan.bin
+*.tfstate.backup
+*.tfstate.bak
+*.tfstate.old
+*.tfstate.new
+*.tfstate.tmp
+*.tfstate.temp
+*.tfstate.json
+*.tfstate.bin
+*.tfstate.backup.json
+*.tfstate.bak.json
+*.tfstate.old.json
+*.tfstate.new.json
+*.tfstate.tmp.json
+*.tfstate.temp.json
+*.terraform.tfstate
+*.terraform.tfstate.lock
+*.terraform.tfstate.lock.info
+*.terraform.tfstate.lock.json
+*.terraform.tfstate.lock.bin
+*.terraform.tfstate.lock.backup
+*.terraform.tfstate.lock.bak
+*.terraform.tfstate.lock.old
+*.terraform.tfstate.lock.new
+*.terraform.tfstate.lock.tmp
+*.terraform.tfstate.lock.temp
+*.terraform.tfstate.lock.json
+*.terraform.tfstate.lock.bin
+*.terraform.tfstate.lock.backup.json
+*.terraform.tfstate.lock.bak.json
+*.terraform.tfstate.lock.old.json
+*.terraform.tfstate.lock.new.json
+*.terraform.tfstate.lock.tmp.json
+*.terraform.tfstate.lock.temp.json

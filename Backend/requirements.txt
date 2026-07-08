@@ -1,0 +1,33 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.3
+
+# AI
+google-generativeai==0.4.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# PDF Generation (ReportLab en lugar de LaTeX)
+reportlab==4.0.7
+
+# File Handling
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Utilities
+loguru==0.7.2
+python-dateutil==2.8.2
+
+# Production
+gunicorn==21.2.0
